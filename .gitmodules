@@ -1,0 +1,9 @@
+[submodule "sources/SciencePlugin"]
+	path = sources/SciencePlugin
+	url = https://github.com/AratorRL/SciencePlugin.git
+[submodule "sources/HitboxPlugin"]
+	path = sources/HitboxPlugin
+	url = https://github.com/Aberinkula/HitboxPlugin.git
+[submodule "sources/MrSuluPlugin"]
+	path = sources/MrSuluPlugin
+	url = https://github.com/jpsarda/MrSuluPlugin.git
