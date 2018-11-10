@@ -1,0 +1,35 @@
+{
+	"plugins":
+	[
+		{
+			"name": "SciencePlugin",
+			"author": "https://github.com/AratorRL",
+			"repo": "https://github.com/AratorRL/SciencePlugin",
+			"submodule": "SciencePlugin",
+			"sourcedir": "SciencePlugin",
+			"entrypoint": "SciencePlugin.cpp",
+			"dllname": "scienceplugin.dll",
+			"settings": "scienceplugin.set"
+		},
+		{
+			"name": "MrSuluPlugin",
+			"author": "https://github.com/jpsarda",
+			"repo": "https://github.com/jpsarda/MrSuluPlugin",
+			"submodule": "MrSuluPlugin",
+			"sourcedir": "MrSuluPlugin",
+			"entrypoint": "MrSuluPlugin.cpp",
+			"dllname": "mrsuluplugin.dll",
+			"settings": "MrSuluPlugin/mrsuluplugin.set"
+		},
+		{
+			"name": "HitboxPlugin",
+			"author": "https://github.com/Aberinkula",
+			"repo": "https://github.com/Aberinkula/HitboxPlugin",
+			"submodule": "HitboxPlugin",
+			"sourcedir": "",
+			"entrypoint": "HitboxPlugin.cpp",
+			"dllname": "hitboxplugin.dll",
+			"settings": "lib/hitboxplugin.set"
+		}
+	]
+}
