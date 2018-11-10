@@ -1,0 +1,12 @@
+Science plugin
+1|Show HUD|showHUD
+1|Show car RBState|showCarRBState
+1|Show ball RBState|showBallRBState
+1|Show car derived info|showCarDerivedInfo
+1|Show input|showInput
+1|Show yaw|showYaw
+1|Override input|overrideInput
+4|Throttle|macroThrottle|-1|1
+4|Steer|macroSteer|-1|1
+1|Handbrake|macroHandbrake
+0|Reset inputs|resetInputs

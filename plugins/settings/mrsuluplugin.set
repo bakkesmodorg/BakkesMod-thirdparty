@@ -1,0 +1,4 @@
+MrSulu plugin
+1|Enable MrSulu plugin|mrsulu_enabled
+4|Wait duration to restart timer|mrsulu_wait_start_timer|0.1|2
+1|Show fast aerials details|mrsulu_fastaerials
