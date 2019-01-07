@@ -38,7 +38,7 @@
 			"submodule": "BendItLikeBeckham",
 			"sourcedir": "",
 			"entrypoint": "BendItPlugin.cpp",
-			"dllname": "Release/benditplugin.dll",
+			"dllname": "benditplugin.dll",
 			"settings": "Release/settings/benditplugin.set"
 		}
 	]

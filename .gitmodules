@@ -7,3 +7,6 @@
 [submodule "sources/MrSuluPlugin"]
 	path = sources/MrSuluPlugin
 	url = https://github.com/jpsarda/MrSuluPlugin.git
+[submodule "sources/BendItLikeBeckham"]
+	path = sources/BendItLikeBeckham
+	url = git@github.com:Aberinkula/BendItLikeBeckham.git
