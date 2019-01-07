@@ -1,0 +1,17 @@
+Bend It Like Beckham plugin
+9|This plugin will add Magnus force and drag to the ball in freeplay and exhibition matches
+1|Curve the ball when it spins|sv_soccar_curve
+4|Lift coefficient|sv_soccar_lift_coefficient|0|8
+7
+0|Reset##lifts|sv_soccar_lift_coefficient 1
+4|Drag coefficient|sv_soccar_drag_coefficient|0|0.02
+7
+0|Reset##drag|sv_soccar_drag_coefficient 0.005
+4|Vertical lift multiplier|sv_soccar_lift_zmod|0|2
+7
+0|Reset##vlift|sv_soccar_lift_zmod 1
+4|Max ballspin multiplier|sv_soccar_maxspin|0.1|3
+7
+0|Reset##maxspin|sv_soccar_maxspin 1
+1|Apply horizontal lift even while on the ground|sv_soccar_lift_ground
+1|Draw the Magnus force direction|sv_soccar_draw_magnus_force
