@@ -30,6 +30,16 @@
 			"entrypoint": "HitboxPlugin.cpp",
 			"dllname": "hitboxplugin.dll",
 			"settings": "lib/hitboxplugin.set"
+		},
+		{
+			"name": "CurveballPlugin",
+			"author": "https://github.com/Aberinkula",
+			"repo": "https://github.com/Aberinkula/BendItLikeBeckham",
+			"submodule": "BendItLikeBeckham",
+			"sourcedir": "",
+			"entrypoint": "BendItPlugin.cpp",
+			"dllname": "Release/benditplugin.dll",
+			"settings": "Release/settings/benditplugin.set"
 		}
 	]
 }
