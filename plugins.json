@@ -50,6 +50,16 @@
 			"entrypoint": "GravityPlugin.cpp",
 			"dllname": "GravityPlugin.dll",
 			"settings": "Release/settings/gravityplugin.set"
+		},
+		{
+			"name": "AirRecoveryPlugin",
+			"author": "https://github.com/OfficialHalfwayDead",
+			"repo": "https://github.com/OfficialHalfwayDead/AirRecoveryPlugin",
+			"submodule": "AirRecoveryPlugin",
+			"sourcedir": "AirRecoveryPlugin",
+			"entrypoint": "AirRecoveryPlugin.cpp",
+			"dllname": "AirRecoveryPlugin.dll",
+			"settings": "Release/settings/airrecoveryplugin.set"
 		}
 	]
 }
