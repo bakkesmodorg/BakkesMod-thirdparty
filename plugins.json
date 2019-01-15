@@ -40,6 +40,16 @@
 			"entrypoint": "BendItPlugin.cpp",
 			"dllname": "benditplugin.dll",
 			"settings": "Release/settings/benditplugin.set"
+		},
+		{
+			"name": "GravityPlugin",
+			"author": "https://github.com/OfficialHalfwayDead",
+			"repo": "https://github.com/OfficialHalfwayDead/GravityPlugin",
+			"submodule": "GravityPlugin",
+			"sourcedir": "GravityPlugin",
+			"entrypoint": "GravityPlugin.cpp",
+			"dllname": "GravityPlugin.dll",
+			"settings": "Release/settings/gravityplugin.set"
 		}
 	]
 }
