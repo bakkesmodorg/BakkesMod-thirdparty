@@ -1,0 +1,13 @@
+Gravity plugin
+1|Use custom gravity|gravity_on
+10|gravity_on
+4|Gravity strength|gravity_strength|0|1800
+7
+0|Reset##strength|gravity_strength 650
+4|Gravity polar angle|gravity_polar|0|180
+7
+0|Reset##polar|gravity_polar 180
+4|Gravity azimuth angle|gravity_azimuth|0|360
+7
+0|Reset##azimuth|gravity_azimuth 0
+11|

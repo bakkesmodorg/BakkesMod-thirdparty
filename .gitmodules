@@ -10,3 +10,9 @@
 [submodule "sources/BendItLikeBeckham"]
 	path = sources/BendItLikeBeckham
 	url = git@github.com:Aberinkula/BendItLikeBeckham.git
+[submodule "sources/GravityPlugin"]
+	path = sources/GravityPlugin
+	url = https://github.com/OfficialHalfwayDead/GravityPlugin.git
+[submodule "sources/AirRecoveryPlugin"]
+	path = sources/AirRecoveryPlugin
+	url = https://github.com/OfficialHalfwayDead/AirRecoveryPlugin.git
