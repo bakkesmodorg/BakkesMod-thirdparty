@@ -60,6 +60,16 @@
 			"entrypoint": "AirRecoveryPlugin.cpp",
 			"dllname": "AirRecoveryPlugin.dll",
 			"settings": "Release/settings/airrecoveryplugin.set"
+		},
+		{
+			"name": "CirclePlugin",
+			"author": "https://github.com/OfficialHalfwayDead",
+			"repo": "https://github.com/OfficialHalfwayDead/CirclePlugin",
+			"submodule": "CirclePlugin",
+			"sourcedir": "CirclePlugin",
+			"entrypoint": "CirclePlugin.cpp",
+			"dllname": "CirclePlugin.dll",
+			"settings": "Release/settings/circleplugin.set"
 		}
 	]
 }

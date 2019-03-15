@@ -16,3 +16,6 @@
 [submodule "sources/AirRecoveryPlugin"]
 	path = sources/AirRecoveryPlugin
 	url = https://github.com/OfficialHalfwayDead/AirRecoveryPlugin.git
+[submodule "sources/CirclePlugin"]
+	path = sources/CirclePlugin
+	url = https://github.com/OfficialHalfwayDead/CirclePlugin.git
