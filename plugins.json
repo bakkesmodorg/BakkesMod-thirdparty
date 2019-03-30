@@ -76,7 +76,7 @@
 			"author": "https://github.com/CinderBlocc",
 			"repo": "https://github.com/CinderBlocc/ReplayStatsBox",
 			"submodule": "ReplayStatsBox",
-			"sourcedir": "ReplayStatsBox",
+			"sourcedir": "source",
 			"entrypoint": "ReplayStatsBox.cpp",
 			"dllname": "ReplayStatsBox.dll",
 			"settings": "bakkesmod-files/replaystatsbox.set"

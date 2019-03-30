@@ -1,0 +1,8 @@
+Dribble in a circle plugin
+5|Measurement duration|circle_duration|20|300
+0|Start measurement|circle_start
+7
+0|Stop measurement|circle_stop
+8
+5|GUI X|circle_gui_x|0|1920
+5|GUI Y|circle_gui_y|0|1080

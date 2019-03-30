@@ -1,0 +1,7 @@
+Replay Stats Box
+0|Show Stats Box|rsbShowStats
+7
+0|Hide Stats Box|rsbHideStats
+4|Box X Position|rsbPosX|0|100
+4|Box Y Position|rsbPosY|0|100
+9|Developed by CinderBlock
