@@ -19,3 +19,6 @@
 [submodule "sources/CirclePlugin"]
 	path = sources/CirclePlugin
 	url = https://github.com/OfficialHalfwayDead/CirclePlugin.git
+[submodule "sources/ReplayStatsBox"]
+	path = sources/ReplayStatsBox
+	url = https://github.com/CinderBlocc/ReplayStatsBox.git
