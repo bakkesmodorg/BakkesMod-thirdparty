@@ -70,6 +70,16 @@
 			"entrypoint": "CirclePlugin.cpp",
 			"dllname": "CirclePlugin.dll",
 			"settings": "Release/settings/circleplugin.set"
+		},
+		{
+			"name": "ReplayStatsBox",
+			"author": "https://github.com/CinderBlocc",
+			"repo": "https://github.com/CinderBlocc/ReplayStatsBox",
+			"submodule": "ReplayStatsBox",
+			"sourcedir": "ReplayStatsBox",
+			"entrypoint": "ReplayStatsBox.cpp",
+			"dllname": "ReplayStatsBox.dll",
+			"settings": "bakkesmod-files/replaystatsbox.set"
 		}
 	]
 }
