@@ -90,5 +90,6 @@
 			"entrypoint": "DiscordRPCPlugin.cpp",
 			"dllname": "DiscordRPCPlugin.dll",
 			"settings": "Release/settings/discordrpcplugin.set"
+		}
 	]
 }
