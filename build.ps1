@@ -7,6 +7,8 @@ $plugins = (Get-Content plugins.json) -join "`n" | ConvertFrom-Json | Select -ex
 $bakkesmod_sdk_include = "F:\Bakkesmod\development\BakkesMod-rewrite\BakkesMod Rewrite";
 $bakkesmod_sdk_lib = "F:\Bakkesmod\development\BakkesMod-rewrite\Release";
 
+$extra_include = "./libs/include";
+$extra_lib = "./libs/lib/";
 
 
 Remove-Item .\tmp -Force -Recurse
@@ -18,9 +20,9 @@ foreach($plugin in $plugins)
     $files = (Get-ChildItem -Path "./sources/$($plugin.submodule)/$($plugin.sourcedir)/" -Recurse -Filter "*.cpp" | Select-Object FullName | foreach{$($_.FullName)}) #-join " " Do not -join, if using & it will treat the entire $files as 1 argument
     
     echo "Compiling $($plugin.dllname)..."
-    & $compiler_location  /c /I"$($bakkesmod_sdk_include)" /nologo /W3 /WX- /diagnostics:classic /sdl /O2 /Oi /Oy- /GL /D _MBCS /D _WINDLL /D _MBCS /D IS_PLUGIN /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"tmp\\" /Gd /TP /analyze- /FC /errorReport:prompt $files | out-null
+    & $compiler_location  /c /I"$($bakkesmod_sdk_include)" /I"$($extra_include)" /nologo /W3 /WX- /diagnostics:classic /sdl /O2 /Oi /Oy- /GL /D _MBCS /D _WINDLL /D _MBCS /D IS_PLUGIN /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"tmp\\" /Gd /TP /analyze- /FC /errorReport:prompt $files | out-null
     echo "Compiled, linking..."
-    & $linker_location /ERRORREPORT:PROMPT /OUT:"tmp\$($plugin.dllname)" /NOLOGO /LIBPATH:"$($bakkesmod_sdk_lib)" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL tmp\*.obj | out-null
+    & $linker_location /ERRORREPORT:PROMPT /OUT:"tmp\$($plugin.dllname)" /NOLOGO /LIBPATH:"$($bakkesmod_sdk_lib)" /LIBPATH:"$($extra_lib)" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL tmp\*.obj | out-null
     echo "Linked"
     
     if(![System.IO.File]::Exists("tmp\$($plugin.dllname)"))

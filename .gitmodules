@@ -22,3 +22,6 @@
 [submodule "sources/ReplayStatsBox"]
 	path = sources/ReplayStatsBox
 	url = https://github.com/CinderBlocc/ReplayStatsBox.git
+[submodule "sources/DiscordRPCPlugin"]
+	path = sources/DiscordRPCPlugin
+	url = https://github.com/segalll/DiscordRPCPlugin.git
