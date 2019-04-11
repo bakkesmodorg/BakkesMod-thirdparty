@@ -80,6 +80,16 @@
 			"entrypoint": "ReplayStatsBox.cpp",
 			"dllname": "ReplayStatsBox.dll",
 			"settings": "bakkesmod-files/replaystatsbox.set"
+		},
+		{
+			"name": "DiscordRPCPlugin",
+			"author": "https://github.com/segalll",
+			"repo": "https://github.com/segalll/DiscordRPCPlugin",
+			"submodule": "DiscordRPCPlugin",
+			"sourcedir": "DiscordRPCPlugin",
+			"entrypoint": "DiscordRPCPlugin.cpp",
+			"dllname": "DiscordRPCPlugin.dll",
+			"settings": "Release/settings/discordrpcplugin.set"
 		}
 	]
 }
