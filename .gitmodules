@@ -25,3 +25,6 @@
 [submodule "sources/DiscordRPCPlugin"]
 	path = sources/DiscordRPCPlugin
 	url = https://github.com/segalll/DiscordRPCPlugin.git
+[submodule "sources/InstantTraining"]
+	path = sources/InstantTraining
+	url = https://github.com/ToolB0xx/InstantTraining.git
