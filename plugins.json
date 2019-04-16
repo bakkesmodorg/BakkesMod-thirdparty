@@ -90,6 +90,16 @@
 			"entrypoint": "DiscordRPCPlugin.cpp",
 			"dllname": "DiscordRPCPlugin.dll",
 			"settings": "Release/settings/discordrpcplugin.set"
+		},
+		{
+			"name": "InstantTraining",
+			"author": "https://github.com/ToolB0xx",
+			"repo": "https://github.com/ToolB0xx/InstantTraining",
+			"submodule": "InstantTraining",
+			"sourcedir": "InstantTraining",
+			"entrypoint": "InstantTraining.cpp",
+			"dllname": "InstantTraining.dll",
+			"settings": "instanttraining.set"
 		}
 	]
 }
